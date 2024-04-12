@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Send notification to Microsoft 365
         run: |
-          curl -H 'Content-Type: application/json' -d '{"text": "새로운 커밋이 발생했습니다!"}' https://o365kopo.webhook.office.com/webhookb2/bb297453-40c6-4dc2-b9bd-fda07688a327@ad21525c-fc0f-4dbc-a403-67ce00add0e4/IncomingWebhook/d80096230c97415e8ec0dd83dcf02cdd/d65d978b-6555-40a1-84d0-6beb009925d8
+          curl -H 'Content-Type: application/json' -d '{"text": "새로운 커밋이 발생했습니다!"}' https://o365kopo.webhook.office.com/webhookb2/bb297453-40c6-4dc2-b9bd-fda07688a327@ad21525c-fc0f-4dbc-a403-67ce00add0e4/IncomingWebhook/bb1c1e77ce144ebc860356c71b3dd22e/d65d978b-6555-40a1-84d0-6beb009925d8
